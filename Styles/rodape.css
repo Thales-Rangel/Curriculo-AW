@@ -1,0 +1,48 @@
+/* Estilo para o rodapé (footer) */
+.footer {
+    background: #d35b0b;
+}
+
+/* Contêiner do rodapé que organiza os elementos */
+.footer-container {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para o texto descritivo do rodapé */
+.footer-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #ccc;
+    width: 100%;
+}
+
+/* Estilo para os itens da lista de contatos no rodapé */
+.footer-contato li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links dentro da lista de contatos */
+.footer-contato li a {
+    color: #fff;
+}
+
+/* Efeito de hover (passar o mouse) para os links */
+.footer-contato li a:hover {
+    color: #ffdc95;
+}
+
+/* Estilo para o texto de copyright no rodapé */
+.footer-copy {
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+}

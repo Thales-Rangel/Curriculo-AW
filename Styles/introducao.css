@@ -1,0 +1,22 @@
+/* Estilo para o título principal da introdução */
+.introducao h1 {
+    font-size: 4.5rem;
+    line-height: 1.125;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Estilo para o parágrafo da introdução */
+.introducao p {
+    font-size: 1.5rem;
+    color: #525252;
+}
+
+.introducao img {
+    border-radius: 50%;
+    box-shadow: 0 0 25px black;
+}
+
+.introducao span {
+    font-style: italic;
+}

@@ -1,0 +1,78 @@
+/* Estilo para o subtítulo da seção de experiência */
+.experiencia .subtitulo {
+    color: #ffdc95;
+    background: #d35b0b;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.experiencia-texto strong {
+    color: #141414;
+}
+
+/* Estilo para cada bloco de empresa */
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #fae5d5;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgb(62, 62, 62);
+}
+
+/* Estilo para a barra decorativa antes do bloco de empresa */
+.empresa::before {
+    content: " ";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#f69999, #fbb19d);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+}
+
+/* Estilo para o ano associado a cada empresa */
+.empresa-ano {
+    position: absolute;
+    top: 22px;
+    left: -100px;
+    color: #525252;
+    font-size: 0.875rem;
+    width: 80px;
+    text-align: right;
+}
+
+/* Estilo para o título da empresa */
+.empresa-titulo {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+/* Estilo para o texto descritivo da empresa */
+.empresa-texto {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #525252;
+}
+
+/* Estilo para a lista de habilidades da empresa */
+.empresa-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+
+/* Estilo para cada item de habilidade */
+.empresa-habilidades li {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 5px 10px;
+}

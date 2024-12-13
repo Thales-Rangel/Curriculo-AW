@@ -1,0 +1,134 @@
+/* Estilo geral para a seção de formação */
+.formacao {
+    background: #e7cdba;
+    color: #ffffff;
+}
+
+/* Contêiner principal da formação */
+.formacao-container {
+    position: relative;
+}
+
+
+/* Estilo para o subtítulo dentro da formação */
+.formacao .subtitulo {
+    color: #ffdc95;
+    background: #d35b0b;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Estilo para o texto descritivo da formação */
+.formacao-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    margin-bottom: 60px;
+    color: black;
+    max-width: 40ch;
+}
+
+/* Estilo para o texto em negrito dentro da formação */
+.formacao-texto strong {
+    color: #ffffff;
+    text-shadow: 0 0 25px black;
+}
+
+/* Lista de faculdades */
+.faculdade-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+/* Estilo individual para cada faculdade */
+.faculdade {
+    flex: 1;
+    background: darkorange;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+/* Tipo de faculdade */
+.faculdade-tipo {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+/* Nome do curso */
+.faculdade-curso {
+    flex: 1;
+    font-size: 1.125rem;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+    text-shadow: 0 0 0px black;
+}
+
+/* Nome da instituição */
+.faculdade-instituicao {
+    font-size: 1.125rem;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+
+/* Lista de cursos extras */
+.cursos {
+    margin-bottom: 60px;
+}
+
+/* Títulos dentro da seção de formação extra */
+.formacao-extra h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/* Elemento decorativo antes do título */
+.formacao-extra h3::before {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
+
+/* Ícones antes de "Cursos" e "Idiomas" */
+.cursos h3::before {
+    background: url("./cursos.svg") no-repeat center center;
+}
+
+.idiomas h3::before {
+    background: url("./idiomas.svg") no-repeat center center;
+}
+
+/* Lista de itens na formação extra */
+.formacao-extra li {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+/* Texto adicional com cor diferenciada */
+.formacao-extra span {
+    color: #8f8f8f;
+}
+
+/* Lista de cursos com espaçamento ajustado */
+.cursos li {
+    display: flex;
+    justify-content: space-between;
+}
